@@ -1,0 +1,102 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM9EKbG55kvgEPX535JbFE0",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/rafaelaabe1/Repositorio-1/blob/main/31_03.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "collapsed": true,
+        "id": "MiBXQEYUqG3X"
+      },
+      "outputs": [],
+      "source": [
+        "# Estrutura de decisões\n",
+        "\n",
+        "# Entrada\n",
+        "\n",
+        "numero1 = int (input (\"digite um número: \"))\n",
+        "numero2 = int (input (\"digite um número: \"))\n",
+        "\n",
+        "# Procesamento e Saída\n",
+        "\n",
+        "if numero1 > numero2:\n",
+        "  print(f\"o numero {numero1} é maior que o {numero2}\")\n",
+        "\n",
+        "elif numero1 == numero2:\n",
+        "  print(f\"o numero {numero1} é igual ao {numero2}\")\n",
+        "\n",
+        "else:\n",
+        "  print(f\"o numero {numero1} é menor que o numero {numero2}\")\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Escrever um pograma onde o usuario digita o nome e a idade:\n",
+        "\n",
+        "# identificar se o usuario é criança, adolescente ou adulto\n",
+        "\n",
+        "# > 12 Criança\n",
+        "# > 18 adoslecente\n",
+        "# < 18 adulto\n",
+        "\n",
+        "nome = str(input(\"digite seu nome: \"))\n",
+        "idade = int(input(\"digite sua idade: \"))\n",
+        "\n",
+        "if idade <= 12:\n",
+        "    print(f\"Olá, {nome}, você é criança\")\n",
+        "\n",
+        "elif idade <= 18:\n",
+        "    print(f\"Olá, {nome}, você é adoslecente\")\n",
+        "\n",
+        "else:\n",
+        "  print(f\"Olá,{nome}, você é adulto\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sDNTxOmas8CR",
+        "outputId": "9b9ed95d-021b-4791-c68b-b15ab5877dfc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite seu nome: rafaela\n",
+            "digite sua idade: 19\n",
+            "Olá,rafaela, você é adulto\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
